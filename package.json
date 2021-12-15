@@ -1,0 +1,19 @@
+{
+  "name": "oits",
+  "version": "1.0.0",
+  "description": "Bu hackathon uchun loyiha",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Umidjon Yoqubov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0"
+  },
+  "engines": {
+    "npm": "14.x"
+  }
+}
