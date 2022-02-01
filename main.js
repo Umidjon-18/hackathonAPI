@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.use('/', appRouter);
 
 
-mongoose.connect('mongodb+srv://Umidjon-18:hackathon-password@cluster0.jezxa.mongodb.net/hackathonDB?retryWrites=true&w=majority')
+mongoose.connect(proccess.env.DB)
 .then(()=>{ console.log('Databas Connected...')})
 .catch((error)=>{ console.log('Database disconnected !!! error is :', error)});
 
